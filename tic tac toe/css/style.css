@@ -1,0 +1,50 @@
+
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2f3542;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gamefield{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #eed52f;
+    box-shadow: 0 0 0 2px #eed52f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.status{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff3d3d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
