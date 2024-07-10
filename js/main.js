@@ -1,8 +1,8 @@
 const boxes = document.querySelectorAll('.box');
         const statusTxt = document.querySelector('.status');
         const btnReset = document.querySelector('.reset');
-        const x = "<img src='/assets/cross.png'>";
-        const o = "<img src='/assets/circle.png'>";
+        const x = "<img src='assets/cross.png'>";
+        const o = "<img src='assets/circle.png'>";
 
         const winConditions = [
             [0, 1, 2], [3, 4, 5], [6, 7, 8],
